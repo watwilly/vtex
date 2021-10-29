@@ -1,0 +1,896 @@
+[2021-10-29 13:51:19] local.ERROR: Command "vtex" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"vtex\" is not defined. at /var/www/html/vtex/vendor/symfony/console/Application.php:682)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2021-10-29 13:55:00] local.ERROR: Command "make" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /var/www/html/vtex/vendor/symfony/console/Application.php:682)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2021-10-29 14:36:05] local.ERROR: Illegal string offset 'list' {"exception":"[object] (ErrorException(code: 0): Illegal string offset 'list' at /var/www/html/vtex/app/Console/Commands/vtex.php:43)
+[stacktrace]
+#0 /var/www/html/vtex/app/Console/Commands/vtex.php(43): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#7 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#10 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#14 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-10-29 14:36:37] local.ERROR: Trying to get property 'list' of non-object {"exception":"[object] (ErrorException(code: 0): Trying to get property 'list' of non-object at /var/www/html/vtex/app/Console/Commands/vtex.php:43)
+[stacktrace]
+#0 /var/www/html/vtex/app/Console/Commands/vtex.php(43): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#7 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#10 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#14 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-10-29 16:06:06] local.ERROR: Undefined property: stdClass::$id {"exception":"[object] (ErrorException(code: 0): Undefined property: stdClass::$id at /var/www/html/vtex/app/Console/Commands/vtex.php:51)
+[stacktrace]
+#0 /var/www/html/vtex/app/Console/Commands/vtex.php(51): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#7 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#10 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#14 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-10-29 16:06:23] local.ERROR: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' (SQL: select `id`, `orderId` from `ordenes` where `orderId` = 1164552526866-01 limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1698): SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' (SQL: select `id`, `orderId` from `ordenes` where `orderId` = 1164552526866-01 limit 1) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(367): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2351): Illuminate\\Database\\Connection->select()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2339): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2873): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2340): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(615): Illuminate\\Database\\Query\\Builder->get()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(599): Illuminate\\Database\\Eloquent\\Builder->getModels()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(259): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 /var/www/html/vtex/app/Console/Commands/vtex.php(51): Illuminate\\Database\\Eloquent\\Builder->first()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#16 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#18 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#19 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#20 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#23 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#24 {main}
+
+[previous exception] [object] (PDOException(code: 1698): SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect()
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1021): call_user_func()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1057): Illuminate\\Database\\Connection->getPdo()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(433): Illuminate\\Database\\Connection->getReadPdo()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(359): Illuminate\\Database\\Connection->getPdoForSelect()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(367): Illuminate\\Database\\Connection->run()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2351): Illuminate\\Database\\Connection->select()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2339): Illuminate\\Database\\Query\\Builder->runSelect()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2873): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2340): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(615): Illuminate\\Database\\Query\\Builder->get()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(599): Illuminate\\Database\\Eloquent\\Builder->getModels()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(259): Illuminate\\Database\\Eloquent\\Builder->get()
+#19 /var/www/html/vtex/app/Console/Commands/vtex.php(51): Illuminate\\Database\\Eloquent\\Builder->first()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#24 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#25 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#26 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#28 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#29 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#30 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#31 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#32 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#33 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#34 {main}
+"} 
+[2021-10-29 16:18:43] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:18:43, 2021-10-29 16:18:43)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:18:43, 2021-10-29 16:18:43)) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#15 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#22 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#24 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#28 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#29 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#30 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:486)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(486): PDO->prepare()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#17 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#24 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#25 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#27 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#28 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#29 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#30 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#31 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#32 {main}
+"} 
+[2021-10-29 16:19:11] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:19:11, 2021-10-29 16:19:11)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:19:11, 2021-10-29 16:19:11)) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#15 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#22 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#24 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#28 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#29 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#30 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:486)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(486): PDO->prepare()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#17 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#24 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#25 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#27 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#28 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#29 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#30 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#31 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#32 {main}
+"} 
+[2021-10-29 16:19:19] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:19:19, 2021-10-29 16:19:19)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:19:19, 2021-10-29 16:19:19)) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#15 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#22 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#24 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#28 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#29 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#30 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:486)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(486): PDO->prepare()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#17 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#24 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#25 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#27 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#28 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#29 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#30 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#31 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#32 {main}
+"} 
+[2021-10-29 16:19:55] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'orderId' doesn't have a default value (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:19:55, 2021-10-29 16:19:55)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'orderId' doesn't have a default value (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:19:55, 2021-10-29 16:19:55)) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#15 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#22 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#24 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#28 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#29 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#30 {main}
+
+[previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'orderId' doesn't have a default value at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:492)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(492): PDOStatement->execute()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#17 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#24 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#25 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#27 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#28 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#29 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#30 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#31 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#32 {main}
+"} 
+[2021-10-29 16:21:02] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'orderId' doesn't have a default value (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:21:02, 2021-10-29 16:21:02)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'orderId' doesn't have a default value (SQL: insert into `ordenes` (`updated_at`, `created_at`) values (2021-10-29 16:21:02, 2021-10-29 16:21:02)) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#15 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#22 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#24 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#28 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#29 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#30 {main}
+
+[previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'orderId' doesn't have a default value at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:492)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(492): PDOStatement->execute()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#17 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#24 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#25 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#27 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#28 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#29 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#30 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#31 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#32 {main}
+"} 
+[2021-10-29 17:33:45] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'flag' doesn't have a default value (SQL: insert into `ordenes` (`orderId`, `total_amount`, `payment_method`, `updated_at`, `created_at`) values (1164552526866-01, 6091200, Promissory, 2021-10-29 17:33:45, 2021-10-29 17:33:45)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'flag' doesn't have a default value (SQL: insert into `ordenes` (`orderId`, `total_amount`, `payment_method`, `updated_at`, `created_at`) values (1164552526866-01, 6091200, Promissory, 2021-10-29 17:33:45, 2021-10-29 17:33:45)) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#15 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#22 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#24 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#28 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#29 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#30 {main}
+
+[previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'flag' doesn't have a default value at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:492)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(492): PDOStatement->execute()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate\\Database\\Eloquent\\Model->save()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(885): tap()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2117): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2129): Illuminate\\Database\\Eloquent\\Model->__call()
+#17 /var/www/html/vtex/app/Console/Commands/vtex.php(63): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#23 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#24 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#25 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#27 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#28 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#29 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#30 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#31 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#32 {main}
+"} 
+[2021-10-29 17:43:20] local.ERROR: syntax error, unexpected '$items' (T_VARIABLE), expecting '(' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$items' (T_VARIABLE), expecting '(' at /var/www/html/vtex/app/Console/Commands/vtex.php:68)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/composer/ClassLoader.php(428): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 [internal function]: spl_autoload_call()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(229): is_subclass_of()
+#4 /var/www/html/vtex/app/Console/Kernel.php(37): Illuminate\\Foundation\\Console\\Kernel->load()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(316): App\\Console\\Kernel->commands()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2021-10-29 17:43:42] local.ERROR: syntax error, unexpected '$items' (T_VARIABLE), expecting '(' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$items' (T_VARIABLE), expecting '(' at /var/www/html/vtex/app/Console/Commands/vtex.php:69)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/composer/ClassLoader.php(428): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 [internal function]: spl_autoload_call()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(229): is_subclass_of()
+#4 /var/www/html/vtex/app/Console/Kernel.php(37): Illuminate\\Foundation\\Console\\Kernel->load()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(316): App\\Console\\Kernel->commands()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2021-10-29 17:43:46] local.ERROR: syntax error, unexpected '$items' (T_VARIABLE), expecting '(' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$items' (T_VARIABLE), expecting '(' at /var/www/html/vtex/app/Console/Commands/vtex.php:69)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/composer/ClassLoader.php(428): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 [internal function]: spl_autoload_call()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(229): is_subclass_of()
+#4 /var/www/html/vtex/app/Console/Kernel.php(37): Illuminate\\Foundation\\Console\\Kernel->load()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(316): App\\Console\\Kernel->commands()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2021-10-29 17:48:02] local.ERROR: count(): Parameter must be an array or an object that implements Countable {"exception":"[object] (ErrorException(code: 0): count(): Parameter must be an array or an object that implements Countable at /var/www/html/vtex/app/Console/Commands/vtex.php:65)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/vtex/app/Console/Commands/vtex.php(65): count()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#8 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#10 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#11 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#12 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#15 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#16 {main}
+"} 
+[2021-10-29 17:52:30] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `items` (`refId`, `productId`, `name`, `quantity`, `orden_id`, `updated_at`, `created_at`) values (tutimarket_6, 105045705, Audifonos Panasonic Rb-m500be-k, 1, 1, 2021-10-29 17:52:30, 2021-10-29 17:52:30)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `items` (`refId`, `productId`, `name`, `quantity`, `orden_id`, `updated_at`, `created_at`) values (tutimarket_6, 105045705, Audifonos Panasonic Rb-m500be-k, 1, 1, 2021-10-29 17:52:30, 2021-10-29 17:52:30)) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php(296): Illuminate\\Database\\Eloquent\\Model->save()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Relations\\HasOneOrMany->Illuminate\\Database\\Eloquent\\Relations\\{closure}()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php(297): tap()
+#12 /var/www/html/vtex/app/Console/Commands/vtex.php(75): Illuminate\\Database\\Eloquent\\Relations\\HasOneOrMany->create()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#19 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#21 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#22 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#23 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#24 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#25 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#26 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#27 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:486)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(486): PDO->prepare()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(493): Illuminate\\Database\\Connection->run()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(445): Illuminate\\Database\\Connection->statement()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\\Database\\Connection->insert()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2965): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1641): Illuminate\\Database\\Query\\Builder->insertGetId()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1188): Illuminate\\Database\\Eloquent\\Builder->__call()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1153): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(994): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php(296): Illuminate\\Database\\Eloquent\\Model->save()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\\Database\\Eloquent\\Relations\\HasOneOrMany->Illuminate\\Database\\Eloquent\\Relations\\{closure}()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php(297): tap()
+#14 /var/www/html/vtex/app/Console/Commands/vtex.php(75): Illuminate\\Database\\Eloquent\\Relations\\HasOneOrMany->create()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#21 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#23 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#24 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#26 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#28 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#29 {main}
+"} 
+[2021-10-29 18:04:28] local.ERROR: Trying to get property 'clientProfileData' of non-object {"exception":"[object] (ErrorException(code: 0): Trying to get property 'clientProfileData' of non-object at /var/www/html/vtex/app/Console/Commands/vtex.php:65)
+[stacktrace]
+#0 /var/www/html/vtex/app/Console/Commands/vtex.php(65): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#7 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#10 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#14 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-10-29 18:05:52] local.ERROR: Undefined property: stdClass::$castrogiovani {"exception":"[object] (ErrorException(code: 0): Undefined property: stdClass::$castrogiovani at /var/www/html/vtex/app/Console/Commands/vtex.php:70)
+[stacktrace]
+#0 /var/www/html/vtex/app/Console/Commands/vtex.php(70): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\vtex->handle()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#7 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#10 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#14 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-10-29 18:48:32] local.ERROR: Command "make:models" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:models\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /var/www/html/vtex/vendor/symfony/console/Application.php:682)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2021-10-29 18:49:40] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vtex.migrations' doesn't exist (SQL: select max(`batch`) as aggregate from `migrations`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vtex.migrations' doesn't exist (SQL: select max(`batch`) as aggregate from `migrations`) at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:703)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(367): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2351): Illuminate\\Database\\Connection->select()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2339): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2873): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2340): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2800): Illuminate\\Database\\Query\\Builder->get()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2750): Illuminate\\Database\\Query\\Builder->aggregate()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(138): Illuminate\\Database\\Query\\Builder->max()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(78): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getLastBatchNumber()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(251): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getLast()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(226): Illuminate\\Database\\Migrations\\Migrator->getMigrationsForRollback()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php(62): Illuminate\\Database\\Migrations\\Migrator->rollback()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(585): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php(65): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->handle()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#21 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#23 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#24 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#26 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#27 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#28 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#29 {main}
+
+[previous exception] [object] (PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vtex.migrations' doesn't exist at /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359)
+[stacktrace]
+#0 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(359): PDO->prepare()
+#1 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\\Database\\Connection->runQueryCallback()
+#3 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Connection.php(367): Illuminate\\Database\\Connection->run()
+#4 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2351): Illuminate\\Database\\Connection->select()
+#5 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2339): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2873): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2340): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#8 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2800): Illuminate\\Database\\Query\\Builder->get()
+#9 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2750): Illuminate\\Database\\Query\\Builder->aggregate()
+#10 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(138): Illuminate\\Database\\Query\\Builder->max()
+#11 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(78): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getLastBatchNumber()
+#12 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(251): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getLast()
+#13 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(226): Illuminate\\Database\\Migrations\\Migrator->getMigrationsForRollback()
+#14 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php(62): Illuminate\\Database\\Migrations\\Migrator->rollback()
+#15 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(585): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#16 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php(65): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#17 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->handle()
+#18 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#20 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#21 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#22 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#23 /var/www/html/vtex/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#24 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#25 /var/www/html/vtex/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#26 /var/www/html/vtex/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#27 /var/www/html/vtex/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#28 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#29 /var/www/html/vtex/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#30 /var/www/html/vtex/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#31 {main}
+"} 
